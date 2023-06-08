@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyLibraries.MyEncodingLib.Net</name>
+    </assembly>
+    <members>
+        <member name="T:MyLibraries.MyEncodingLib.Classes.MyByte">
+            <summary>
+            Байт
+            </summary>
+        </member>
+        <member name="M:MyLibraries.MyEncodingLib.Classes.MyByte.GetBytes(System.Byte[]@,System.String,MyLibraries.MyEncodingLib.Enums.TypeEncoding)">
+            <summary>
+            Отримати байти
+            </summary>
+            <param name="arrayByte">Поточний масив байтів</param>
+            <param name="str">Рядок для отримання байтів</param>
+            <param name="typeEncoding">Тип кодування</param>
+        </member>
+        <member name="M:MyLibraries.MyEncodingLib.Classes.MyByte.GetBytes(System.Byte[]@,System.Int32,MyLibraries.MyEncodingLib.Enums.TypeEncoding)">
+            <summary>
+            Отримати байти
+            </summary>
+            <param name="arrayByte">Поточний масив байтів</param>
+            <param name="number">Число для отримання байтів</param>
+            <param name="typeEncoding">Тип кодування</param>
+        </member>
+        <member name="T:MyLibraries.MyEncodingLib.Classes.MyHMAC">
+            <summary>
+            HMAC
+            </summary>
+        </member>
+        <member name="T:MyLibraries.MyEncodingLib.Classes.MyHMAC.SHA256">
+            <summary>
+            SHA-256
+            </summary>
+        </member>
+        <member name="M:MyLibraries.MyEncodingLib.Classes.MyHMAC.SHA256.Encrypt(System.String@,MyLibraries.MyEncodingLib.Enums.OutputTextFormat,System.String,System.String)">
+            <summary>
+            Зашифрувати (захешувати)
+            </summary>
+            <param name="hashedStr">Захешований рядок</param>
+            <param name="textFormat">Формат вихідного тексту</param>
+            <param name="secretKey">Секретний ключ</param>
+            <param name="text">Текс для хешування</param>
+        </member>
+        <member name="T:MyLibraries.MyEncodingLib.Enums.OutputTextFormat">
+            <summary>
+            Формат вихідного тексту
+            </summary>
+        </member>
+        <member name="F:MyLibraries.MyEncodingLib.Enums.OutputTextFormat.HEX">
+            <summary>
+            Шістнадцяткова система числення
+            </summary>
+        </member>
+        <member name="F:MyLibraries.MyEncodingLib.Enums.OutputTextFormat.Base64">
+            <summary>
+            Шістдесятичетверна система числення
+            </summary>
+        </member>
+        <member name="T:MyLibraries.MyEncodingLib.Enums.TypeEncoding">
+            <summary>
+            Тип кодування
+            </summary>
+        </member>
+        <member name="F:MyLibraries.MyEncodingLib.Enums.TypeEncoding.Default">
+            <summary>
+            За замовчуванням
+            </summary>
+        </member>
+        <member name="F:MyLibraries.MyEncodingLib.Enums.TypeEncoding.ASCII">
+            <summary>
+            7-бітне кодування
+            </summary>
+        </member>
+        <member name="F:MyLibraries.MyEncodingLib.Enums.TypeEncoding.UTF8">
+            <summary>
+            8-бітне кодування
+            </summary>
+        </member>
+        <member name="F:MyLibraries.MyEncodingLib.Enums.TypeEncoding.UTF32">
+            <summary>
+            32-бітне кодування
+            </summary>
+        </member>
+        <member name="F:MyLibraries.MyEncodingLib.Enums.TypeEncoding.Unicode">
+            <summary>
+            16-бітне кодування
+            </summary>
+        </member>
+    </members>
+</doc>

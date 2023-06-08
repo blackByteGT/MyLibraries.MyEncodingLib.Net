@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net5.0</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>9.8.6.23</Version>
+    <Authors>Vladislav Rak</Authors>
+    <Product>MyEncodingLib</Product>
+    <Description>A library for working with data protection</Description>
+    <PackageTags>.NET</PackageTags>
+    <PackageProjectUrl>https://github.com/blackByteGT/MyLibraries.MyEncodingLib.Net</PackageProjectUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>G:\Мій диск\Locker\Особисте\Important\Програмування\Мої бібліотеки\Класи бібліотек\MyLibraries.MyEncodingLib.Net\MyLibraries.MyEncodingLib.Net.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>
